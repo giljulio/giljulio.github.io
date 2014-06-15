@@ -5,6 +5,28 @@ layout: default
 <div id="post-container">
   <div class="post post-narrow">
     <h2>{{ page.title }}</h2>
+	<ul class="meta">
+		{% if page.website %}
+			<li>
+				<a href="{{ page.website }}" target="_blank">view site</a>
+			</li>
+		{% endif %}
+		{% if page.github %}
+			<li>
+				<a href="{{ page.github }}" target="_blank">github</a>
+			</li>
+		{% endif %}
+		{% if page.worktype %}
+			<li>
+				{{ page.worktype }}
+			</li>
+		{% endif %}
+		{% if page.date %}
+			<li>
+				{{ page.date | date: "%b %Y" }}
+			</li>
+		{% endif %}
+	</ul>
     <!-- <div class="separator"> </div> -->
     {{ content }}
   </div>

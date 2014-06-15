@@ -1,7 +1,7 @@
-name: Jonathan Matthey
+name: Gil Sinclair-Julio
 description: Portfolio
-author: Jonathan Matthey
-analytics: UAXXXXXXXX1
+author: Gil Sinclair-Julio
+analytics: UA-46779276-1
 exclude: [ _design, README ]
 # baseurl: "http://www.jonathanmatthey.com/redesign/_site/"
 baseurl: "/"

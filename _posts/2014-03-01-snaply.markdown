@@ -1,0 +1,13 @@
+---
+layout: post-wide
+uid: snaply
+title:  "Snaply"
+worktype: "Android Developer"
+date:   2014-03-01 00:00:01
+categories: project
+hero-bg-color: "#36c79e"
+website: "https://www.snaply.co.uk"
+---
+<div class="narrow-section">
+	<p>I was incharge of I was incharge ofI was incharge of I was incharge ofI was incharge of I was incharge ofI was incharge of I was incharge ofI was incharge of I was incharge ofI was incharge of I was incharge of</p>
+</div>
