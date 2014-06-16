@@ -9,5 +9,5 @@ hero-bg-color: "#36c79e"
 website: "https://www.snaply.co.uk"
 ---
 <div class="narrow-section">
-	<p>I was incharge of I was incharge ofI was incharge of I was incharge ofI was incharge of I was incharge ofI was incharge of I was incharge ofI was incharge of I was incharge ofI was incharge of I was incharge of</p>
+	<p>Worked at Snaply for 2 months. During this time I had to get the Snaply Android Application ready for launch from previous developers.</p>
 </div>
