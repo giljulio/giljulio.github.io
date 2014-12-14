@@ -6,4 +6,13 @@ worktype: "Android Developer"
 date:   2014-02-10 00:00:01
 categories: opensource project
 opensource: true
+hero-bg-color: "red"
 ---
+<div class="narrow-section">
+	<p>I attened the GeekList Hack4Good Hackathon 2014. Working with MSF we listened to their current problems. One particular issue stood out. The inability of good communication in disaster areas, without a clear image of the situation on the ground it is extremely dificult to distribute the resouces fairly. We worked intensively for over 48 hours to create a demo that solved the communication problem.</p>
+	<p>Our priorities:<ul>
+		<li>Must work in areas without internet</li>
+		<li>Work with low end phones (not only smartphones)</li>
+		<li>Must be reliable</li>
+	</ul></p>
+</div>

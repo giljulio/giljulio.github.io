@@ -437,6 +437,8 @@ td {
 
   .projects {
     margin: 0 15px ;
+    max-width: 940px;
+    margin: auto;
   }
 
   .projects li {
