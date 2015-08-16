@@ -1,8 +1,0 @@
-name: Gil Sinclair-Julio
-description: Portfolio
-author: Gil Sinclair-Julio
-analytics: UA-46779276-1
-exclude: [ _design, README ]
-# baseurl: "http://www.jonathanmatthey.com/redesign/_site/"
-baseurl: "/"
-markdown: kramdown
