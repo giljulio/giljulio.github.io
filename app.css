@@ -3,7 +3,7 @@
 *** (C) ZACH COLE 2016
 **/
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,900&display=swap);
 
 /* UNIVERSAL */
 
@@ -18,42 +18,21 @@ body {
   font-size: 100%;
 }
 
-/* ROOT FONT STYLES */
-
-* {
-  font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
-  line-height: 1.5;
-}
-
 /* TYPOGRAPHY */
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-family: 'Merriweather', Serif;
 }
 
 h2 {
   font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.375rem;
-}
-
-h4 {
-  font-size: 1.125rem;
-}
-
-h5 {
-  font-size: 1rem;
-}
-
-h6 {
-  font-size: 0.875rem;
+  font-family: 'Merriweather', Serif;
 }
 
 p {
-  font-size: 1.125rem;
+  font-family: 'Muli', Sans-Serif;
+  font-size: 1.3rem;
   font-weight: 200;
   line-height: 1.8;
 }
@@ -108,6 +87,15 @@ p {
   margin: 0.5rem 2%;
   min-height: 0.125rem;
 }
+
+a:focus {
+  outline: 10px solid #40F689;
+  background-color:  #40F689;
+}
+
+::-moz-selection { background: #40F689; color: black; }
+::selection { background: #40F689; color: black; }
+
 
 .col-1,
 .col-2,
@@ -245,6 +233,47 @@ p {
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
     width: 75%;
-    max-width: 60rem;
+    max-width: 46rem;
+  }
+}
+
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+a {
+  color: #4CF48D;
+  font-weight: 700;
+  text-decoration: none;
+  outline: 2px wavy #40F689;
+}
+
+a:hover,
+a:focus {
+  outline: 16px solid #40F689;
+  background-color: #40F689;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color: #171717;
+      color: white;
   }
 }
